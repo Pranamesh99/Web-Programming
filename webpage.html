@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #1E2A47;
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 25px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        .intro-section {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .intro-text p:first-child {
+            display: flex;
+            align-items: flex-start;
+        }
+        .photo-wrapper {
+            margin-right: 20px;
+        }
+        h2 {
+            color: #aebdcc;
+            font-size: 2em;
+            margin-top: 40px;
+        }
+        p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin: 15px 0;
+        }
+        .projects-section {
+            margin-top: 40px;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+        .project-box {
+            background: #ecf0f1;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .project-box img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .project-box h3 {
+            color: #f39c12;
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .project-box p {
+            color: #7f8c8d;
+        }
+        .section {
+            margin-top: 40px;
+        }
+        textarea {
+            width: 90%;
+            height: 120px;
+            padding: 15px;
+            margin-top: 10px;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            font-size: 1em;
+            resize: none;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        a {
+            color: #2C3E50;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #f39c12;
+        }
+        footer {
+            background-color: #1E2A47;
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        footer a:hover {
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My WebPage</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#tutorial">Tutorial</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="about" class="intro-section">
+            <div class="photo-wrapper">
+                <img src="1.JPG" alt="Profile Photo" width="180px" height="150px">
+            </div>
+            <div class="intro-text">
+                <p>
+                    My name is K. Pranamesh, and I am a second-year B.Tech student in Computer Science and Engineering at VIT University. I specialize in programming and problem-solving, with expertise in languages such as HTML, CSS, JavaScript, C, Python, and Java. My technical skills extend to tools like GitHub, Eclipse, Jupyter Notebook, and Visual Studio Code, allowing me to build scalable software solutions.
+                </p>
+            </div>
+        </div>
+        <p>
+            My journey began with a strong academic foundation, as I completed my secondary education and achieved high marks in my SSC examinations. These milestones reflect my dedication to hard work and excellence. Beyond academics, I enjoy reading novels, which help me broaden my imagination and analytical skills, and I actively participate in badminton and cricket to stay physically fit and enhance my teamwork and leadership abilities. I believe in maintaining a balance between my academic and personal life, as it allows me to grow holistically and become a better problem solver and team player.
+        </p>
+        <p>
+            To further my learning, I have earned certifications that showcase my commitment to professional growth. Among them, I hold an <b>NPTEL Elite certification in Wildlife Ecology</b>, achieved with a perfect score, reflecting my ability to analyze data and conduct research efficiently. Additionally, I have completed courses in advanced Python programming and web development, strengthening my technical expertise and problem-solving skills. My goal is to leverage my knowledge and skills to contribute to impactful projects, build innovative technologies, and continuously evolve as a professional in the tech industry.
+        </p>
+        <h2 id="projects">Projects</h2>
+        <div class="projects-section">
+            <div class="projects-grid">
+                <div class="project-box">
+                    <a href="Time Table.html" target="_blank">
+                        <img src="p1.png" alt="Project 1">
+                    </a>
+                    <h3>Project 1</h3>
+                    <p>A winter semester timetable application for effective schedule management.</p>
+                </div>
+                <div class="project-box">
+                    <a href="PROFILE.html" target="_blank">
+                        <img src="p2.png" alt="Project 2">
+                    </a>
+                    <h3>Project 2</h3>
+                    <p>A user profile webpage showcasing personal and academic details.</p>
+                </div>
+                <div class="project-box">
+                    <a href="SolarSystem.html" target="_blank">
+                        <img src="p3.png" alt="Project 3">
+                    </a>
+                    <h3>Project 3</h3>
+                    <p>An interactive solar system model demonstrating planetary orbits.</p>
+                </div>
+                <div class="project-box">
+                    <a href="Registration Form.html" target="_blank">
+                        <img src="p4.png" alt="Project 4">
+                    </a>
+                    <h3>Project 4</h3>
+                    <p>A form-based data entry application for streamlined record keeping.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section" id="tutorial">
+            <h2>Tutorial</h2>
+            <p>This is a tutorial about hosting webpages on <b>GitHub</b>.</p>
+        </div>
+
+        <div class="section feedback" id="feedback">
+            <h2>Feedback</h2>
+            <textarea placeholder="Type your feedback here..."></textarea>
+            <button type="button">Send</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="section contact" id="contact">
+            <h2>Contact</h2>
+            <a href="mailto:your_email@example.com">Email</a> |
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
